@@ -49,5 +49,5 @@
 ## References
 * [wp-cubi](https://github.com/globalis-ms/wp-cubi)
 * [Wonolog](https://github.com/inpsyde/Wonolog)
-* [wp-cli](https://wp-cli.org/) (sample :  ./vendor/bin/wp media regenerate)
+* [wp-cli](https://wp-cli.org/) (sample :  `./vendor/bin/wp media regenerate`)
 * [Globalis-ms](https://www.globalis-ms.com/)
