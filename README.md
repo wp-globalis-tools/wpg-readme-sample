@@ -32,8 +32,8 @@
   * environments/   : your environments settings
   * htaccess/       : htaccess rules. Will be minify in build task. You can override a part by environment (example: htacess-urls-[environment]
 ### Robo
-  * We use robo tasks runner
-  * Robo tasks are define in `./Robofile.php`
+* We use robo tasks runner
+* Robo tasks are define in `./Robofile.php`
 
 ## Build
 ### Command usage
