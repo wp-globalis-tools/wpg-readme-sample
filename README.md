@@ -13,8 +13,7 @@
 ** ./security/
 ** Media directory
 
-**Utils:
-* Command with mysql: `mysql -u[username] -p[password] -h[db_host] [db_name] < [file.sql]`**
+**Utils:Command with mysql: `mysql -u[username] -p[password] -h[db_host] [db_name] < [file.sql]`**
 
 
 ## Architecture overview
