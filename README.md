@@ -9,7 +9,10 @@
 * Run robo `./vendor/bin/robo install`
 * In ./config directory, copy local-sample.php to local.php
 * Don't forget to import your media directory
-* Check grants in ./logs/, ./security/, Media directory
+* Check grants in
+  * ./logs/
+  * ./security/
+  * Media directory
 
 
 ## Architecture overview
