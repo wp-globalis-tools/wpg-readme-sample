@@ -36,13 +36,11 @@
 * Robo tasks are define in `./Robofile.php`
 
 ## Build
-### Command usage
 * htaccess : `./vendor/bin/robo build:htaccess`
 * theme    : `./vendir/bin/robo build:theme [--skip-styles] [--skip-scripts] [--skip-images] [--skip-fonts]`
   
 ## Deploy
-### Command usage
-`./vendor/bin/robo deploy:[environment] [branch]`
+* `./vendor/bin/robo deploy:[environment] [branch]`
 
 ## Project
 
