@@ -21,7 +21,7 @@
 * We use ACF plugin with his json feature to synchronize custom fields. Please add write access to your acf-json directory, in your theme root
 * To add a Wordpress Plugin, run `composer require "wpackagist-plugin/<plugin-slug>": "<plugin-version>"`
 
-**Find your plugin dependencie in [wpackagist](https://wpackagist.org/)**
+**Find plugin dependencie in [wpackagist](https://wpackagist.org/)**
 ### Paths
 * Your web root path must be set to /web directory (vhost or web path in your robo properties)
 * Access admin page : <website-url>/wp/wp-admin
