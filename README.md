@@ -23,8 +23,8 @@
 
 **Find your dependencie in [wpackagist](https://wpackagist.org/)**
 ### Configs
-**Your web root path must be set to /web directory (vhost or web path in your robo properties)**
-* Config (*./config/*) :
+* Your web root path must be set to /web directory (vhost or web path in your robo properties)
+* Config directory (*./config/*) :
   * application.php : config yours paths and general constants
   * local.php       : local configuration (will be ignore in git and deploy task)
   * salt-keys.php   : WP salt keys ([generate](https://api.wordpress.org/secret-key/1.1/salt/))
