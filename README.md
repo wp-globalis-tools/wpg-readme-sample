@@ -36,6 +36,7 @@
 ### Robo
 * We use robo tasks runner
 * Robo tasks are define in `./Robofile.php`
+* Include wp-cli (sample :  `./vendor/bin/wp media regenerate`)
 
 ## Build
 * htaccess : `./vendor/bin/robo build:htaccess`
@@ -49,5 +50,5 @@
 ## References
 * [wp-cubi](https://github.com/globalis-ms/wp-cubi)
 * [Wonolog](https://github.com/inpsyde/Wonolog)
-* [wp-cli](https://wp-cli.org/) (sample :  `./vendor/bin/wp media regenerate`)
+* [wp-cli](https://wp-cli.org/)
 * [Globalis-ms](https://www.globalis-ms.com/)
