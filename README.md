@@ -17,19 +17,20 @@
 
 
 ## Architecture overview
-* Add access to acf-json directory, in your theme root
+* We use ACF plugin with his json feature to synchronise custom fields. Please add write access to your acf-json directory, in your theme root
 * To add a Wordpress Plugin, run `composer require "wpackagist-plugin/[plugin-slug]": "[plugin-version]"`
+* Your web root path must be set to /web directory (vhost or web path in your robo properties)
 
 **Find your dependencie in [wpackagist](https://wpackagist.org/)**
-* Config required (*./config/*) :
-  * application.php : config your path and general constants
-  * local.php       : local configuration (will be ignore in deploy task and git)
+* Config (*./config/*) :
+  * application.php : config yours paths and general constants
+  * local.php       : local configuration (will be ignore in git and deploy task)
   * salt-keys.php   : WP salt keys ([generate](https://api.wordpress.org/secret-key/1.1/salt/))
-  * vars.php        : Project vars
-  * environments/   : Your environments settings
-  * htaccess/       : Htaccess rules. Will be minify in build task. You can override a part by environment (sample: htacess-[part]-[environment]
+  * vars.php        : project vars
+  * environments/   : your environments settings
+  * htaccess/       : htaccess rules. Will be minify in build task. You can override a part by environment (example: htacess-urls-[environment]
 * Robo
-  * Use robo tasks runner
+  * We use robo tasks runner
   * Robo tasks are define in `./Robofile.php`
 
 ## Build
