@@ -19,5 +19,12 @@
 ## Architecture overview
 * Add all grants to acf-json directory, in your theme root
 * To add a Wordpress Plugin, run `composer require "wpackagist-plugin/[plugin-slug]": "[plugin-version]"`
-**Find your dependencie in [wpackagist](https://wpackagist.org/)**
 
+**Find your dependencie in [wpackagist](https://wpackagist.org/)**
+* Config required :
+  * application.php : config your path and general constants
+  * local.php       : local configuration (will be ignore in deploy task and git)
+  * salt-keys.php   : WP salt keys ([generate](https://api.wordpress.org/secret-key/1.1/salt/))
+  * vars.php        : Project vars
+  * environments/   : Your environments settings
+  * htaccess/       : Htaccess rules. Will be minify in build task. You can override a part by environment (sample: htacess-[part]-[environment]
